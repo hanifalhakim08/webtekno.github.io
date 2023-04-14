@@ -1,0 +1,58 @@
+/* Style untuk body */
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+/* Style untuk header */
+header {
+  background-color: #222;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Style untuk header h1 */
+header h1 {
+  margin: 0;
+}
+
+/* Style untuk header nav */
+header nav {
+  display: flex;
+}
+
+/* Style untuk header nav ul */
+header nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style untuk header nav li */
+header nav li {
+  margin: 0 10px;
+}
+
+/* Style untuk header nav a */
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+/* Style untuk header nav a:hover */
+header nav a:hover {
+  color: #ccc;
+}
+
+/* Style untuk main */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+ 
